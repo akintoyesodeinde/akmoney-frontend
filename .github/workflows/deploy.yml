@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
+  AWS_REGION: ${{ vars.AWS_REGION || 'eu-north-1' }}
   EXPECTED_AWS_ACCOUNT_ID: '415805875879'
   FRONTEND_OIDC_ROLE_ARN: 'arn:aws:iam::415805875879:role/akmoney-frontend-github-deploy-role'
 
